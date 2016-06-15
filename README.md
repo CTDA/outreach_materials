@@ -2,12 +2,19 @@
 The following materials are used for outreach and marketing for the Connecticut Digital Archive.
 
 [Style Guide](#Style-Guide)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Fonts](#Fonts)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Colors](#Colors)
+
 [Flyer](#Flyer) 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Using InDesign](#Using-InDesign)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Using Publisher](#Using-Publisher)
+
 [Bookmark](#Bookmark)
+
 
 #<a name="Style-Guide"></a>Style Guide
 In order to maintain a consistent look and feel across all of CTDA, please refer to this guide when creating any new materials. 
