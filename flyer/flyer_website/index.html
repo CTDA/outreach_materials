@@ -1,0 +1,451 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CT Digital Archive</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+
+
+    <header>
+       <a href="http://ctdigitalarchive.org/"> <img class="logo" alt="CT Digital Archive" src="img/Logo_Mantra_Name.svg"></a>
+        <div class="gradient"></div>
+        <div class="jumbotron">
+            
+            <div class="hero_img">
+                <img class="hero_img" alt="Workers on Spooling Floor" src="img/workers_on_spooling_floor.jpg">
+                <p class="caption">Workers on Spooling Floor. Wauregan and Quinebaug Company Records.</p>
+            </div>
+            
+            <div class="hero_img">
+                <img class="hero_img" alt="The Beach, Fairfield, Conn." src="img/beach.jpg">
+                <p class="caption">The Beach, Fairfield, Conn. Fairfield Museum and History Center.</p>
+            </div>
+            
+            <div class="hero_img">
+                <img class="hero_img" alt="Schooner yacht Brilliant." src="img/boat.jpg">
+                <p class="caption">Schooner yacht Brilliant. Mystic Seaport.</p>
+            </div>
+            
+            <div class="hero_img">
+                <img class="hero_img" alt="Avery House, Groton, Connecticut." src="img/house.jpg">
+                <p class="caption">Avery House, Groton, Connecticut. Connecticut Historical Society.</p>
+            </div>
+            
+            <div class="hero_img">
+                <img class="hero_img" alt="Watermelon Party at Dean Mays." src="img/party.jpg">
+                <p class="caption">Watermelon Party at Dean Mays. University of Connecticut Libraries.</p>
+            </div>
+            
+            <div class="hero_img">
+                <img class="hero_img" alt="391-407 Main Street at Capitol Avenue, Hartford, looking west." src="img/street.jpg">
+                <p class="caption">391-407 Main Street at Capitol Avenue, Hartford, looking west. Hartford Public Library.</p>
+            </div>
+            
+        </div>
+    </header>
+
+    <main>
+        <p>A collaborative and participatory digital preservation program for Connecticut’s cultural heritage community</p>
+        <p>Manage and preserve your digital assets in a shared environment that ensures long-term preservation and use</p>
+        <p>Use your content any way you want and share it with the world</p>
+        
+        <p class="links"><a class="button" href="includes/brochure_variations.pdf">CT Digital Archive</a><a class="button" href="includes/brochure_variations.pdf">Printable PDF</a></p>
+        
+        <p class="affiliation">A program of the <a href="http://lib.uconn.edu/">University of Connecticut Library</a> in collaboration with the <a href="http://ctstatelibrary.org/">Connecticut State Library</a></p>
+        
+
+        <img alt="" class="bg_web" src="img/web.svg">
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        
+$("div.hero_img:nth-child(1)").toggleClass("on");
+var num;
+var last;
+last = 1;
+console.log("pre-function");
+
+function swap() {
+    if ( last === null){
+        last = 1;
+    }
+    
+    console.log("swaped");
+    if (last < 6) {
+        console.log("last +1");
+        num = last + 1;
+    } else {
+        num = 1;
+        console.log("back to beginig");
+        
+    }
+        
+    $("div.hero_img:nth-child(" + (last) + ")").toggleClass("on");
+
+    $("div.hero_img:nth-child(" + num + ")").toggleClass("on");
+    
+    last = num;
+    console.log(last + "     " + num);
+}
+
+
+$(document).ready(function () {
+
+
+    console.log("call");
+    var swing_timer = setInterval(function (){ swap() }, 10000);
+
+    console.log("called");
+
+    window.onscroll = function () {
+        document.body.style.webkitPerspectiveOrigin =
+            window.scrollX + "px " +
+            window.scrollY + "px";
+    };
+
+
+
+
+});
+</script>
+    
+    
+</body>
+
+<style>
+        
+html {
+    background: #DB3726;
+}
+
+header {
+    position: relative;
+    
+    display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+    flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    align-items: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    width: 40%;
+    max-width: 35rem;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    z-index: 5;
+
+    transform-origin: top;
+        -webkit-transform-origin: top;
+    
+    transition: transform ease-out .05s;
+        -webkit-transition: -webkit-transform ease-out .05s;
+        transition: -webkit-transform ease-out .05s;
+        transition: transform ease-out .05s, -webkit-transform ease-out .05s;
+}
+
+.logo:hover{
+   
+    transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    
+    transform-origin: top;
+        -webkit-transform-origin: top;
+    
+    transition: transform ease-in .05s;
+        -webkit-transition: -webkit-transform ease-in .05s;
+        transition: -webkit-transform ease-in .05s;
+        transition: transform ease-in .05s, -webkit-transform ease-in .05s;
+}
+
+.gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: 80%;
+    width: 100%;
+    
+    z-index: 3;
+    
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 31%, rgba(255, 255, 255, 0) 100%);
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 31%, rgba(255, 255, 255, 0) 100%);
+}
+
+body {
+    margin: 0;
+    perspective: 500;
+        -webkit-perspective: 500;
+        -moz-perspective: 500;
+    perspective-origin: 0 0;
+        -webkit-perspective-origin: 0 0;
+        -moz-perspective-origin: 0 0;
+}
+
+div.jumbotron {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height:73vw;
+    max-height: 50rem;
+    overflow: hidden;
+    
+    display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+    
+    flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    
+    align-items: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+}
+
+div.hero_img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    max-height: 50rem;
+    z-index: 0;
+    
+    animation: fade-out 5s ;
+        -webkit-animation: fade-out 5s ;
+    
+    transform: translateZ(50px);
+        -webkit-transform: translateZ(50px);
+}
+div.hero_img.on{
+    animation: fade-in 1.25s forwards;
+        -webkit-animation: fade-in 1.25s forwards;
+    
+    z-index: 2;
+}
+
+@-webkit-keyframes fade-in {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade-out {
+    0%   {
+        z-index: 1;
+    }
+    100% {
+        z-index: 1;
+    }
+}
+
+@keyframes fade-out {
+    0%   {
+        z-index: 1;
+    }
+    100% {
+        z-index: 1;
+    }
+}
+
+
+img.hero_img {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+p.caption {
+    position: absolute;
+    bottom: 2rem;
+    margin: .5rem;
+    
+    color: white;
+    font-size: .5rem;
+    text-shadow: 1px 1px 5px black;
+    
+    transform: translateZ(-50px);
+        -webkit-transform: translateZ(-50px);
+        -moz-transform: translateZ(-50px);
+        -ms-transform: translateZ(-50px);
+}
+
+main {
+    position: relative;
+    padding-top: 2rem;
+    
+    display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+    
+    flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    
+    align-items: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+}
+
+p {
+    margin: 2rem .75rem;
+    max-width: 45rem;
+    
+    font-family: "Glacial Indifference", sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: inherit
+}
+a:hover {
+    color: black;
+}
+
+p.links{
+    width: 90%;
+    max-width: 45rem;
+    
+    display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+    justify-content: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+}
+
+a.button {
+    display: block;
+    margin:  1rem;
+    padding: .5rem;
+    
+    font-size: 1.75rem;
+    color: inherit;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: all .07s linear;
+        -webkit-transition: all .07s linear;
+}
+
+a.button:hover {
+    background: white;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px black;
+    color: #DB3726;
+}
+
+.affiliation {
+    font-size: .75rem;
+}
+
+.bg_web{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    bottom: 25vh;
+    right: 0;
+    margin: auto;
+    margin-left: -5rem;
+    margin-bottom: .75rem;
+    max-width: 60rem;
+    z-index: -50;
+    
+    opacity: .1;
+    transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+}
+
+@media only screen and (min-width: 40em) {
+    p {
+        font-size: 1.5rem;
+    }
+    p:nth-child(3) {
+        max-width: 28rem;
+    }
+    p.caption {
+        font-size: .75rem;
+    }
+    .affiliation {
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    p {
+        max-width: 60rem;
+        
+        font-size: 2rem;
+    }
+    p:nth-child(3) {
+        max-width: 35rem;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    div img {
+        margin-top: -10vw;
+    }
+}
+    
+    </style>
+    
+    
+    
+</html>
