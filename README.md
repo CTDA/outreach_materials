@@ -34,10 +34,11 @@ You can find the logo in [this repo](https://github.com/CTDA/logo_designs)
 ##<a name="Fonts"></a>Fonts
 
  **Ikaros:** Text that needs to be stylized, such as short headers
+  - Tracking should be set to 68 to match the logo
+
+**Glacial Indifference:** Headings and shorter blurbs of information
  
- **Glacial Indifference:** Headings and shorter blurbs of information
- 
- **Adamina:** Body text
+**Adamina:** Body text
 
 ##<a name="Colors"></a>Colors
 
