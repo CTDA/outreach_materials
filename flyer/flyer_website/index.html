@@ -81,7 +81,6 @@ $("div.hero_img:nth-child(1)").toggleClass("on");
 var num;
 var last;
 last = 1;
-console.log("pre-function");
 
 function swap() {
     if ( last === null){
@@ -90,11 +89,9 @@ function swap() {
     
     console.log("swaped");
     if (last < 6) {
-        console.log("last +1");
         num = last + 1;
     } else {
         num = 1;
-        console.log("back to beginig");
         
     }
         
@@ -103,17 +100,13 @@ function swap() {
     $("div.hero_img:nth-child(" + num + ")").toggleClass("on");
     
     last = num;
-    console.log(last + "     " + num);
 }
 
 
 $(document).ready(function () {
 
-
-    console.log("call");
     var swing_timer = setInterval(function (){ swap() }, 10000);
 
-    console.log("called");
 
     window.onscroll = function () {
         document.body.style.webkitPerspectiveOrigin =
@@ -132,8 +125,10 @@ $(document).ready(function () {
 
 <style>
     
-    @import: 'https://github.com/CTDA/outreach_materials/blob/master/flyer/flyer_website/includes/GlacialIndifference-Regular.otf?raw=true';
-        
+        @font-face {
+    font-family: "Glacial Indifference";
+    src: url(https://github.com/CTDA/logo_designs/blob/master/Fonts/Glacial_Indifference/GlacialIndifference-Regular.otf?raw=true);
+}
 
 html {
     background: #DB3726;
