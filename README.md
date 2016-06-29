@@ -3,6 +3,10 @@ The following materials are used for outreach and marketing for the Connecticut 
 
 [Style Guide](#Style-Guide)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Look and feel](#Look_and_feel)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Logo](#Logo)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Typography](#Typography)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Colors](#Colors)
@@ -23,7 +27,11 @@ The following materials are used for outreach and marketing for the Connecticut 
 #<a name="Style-Guide"></a>Style Guide
 In order to maintain a consistent look and feel across all of CTDA, please refer to this guide when creating any new materials. 
 
-##Logo
+##<a name="Look_and_feel"></a>Look and feel
+The CTDA approach to design is minimal, yet warming and welcoming to everyone. Our outreach materials should highlight the rich culture of Connecticut by exhibiting photos from our archive. Promotional materials should get people to browse our current archives, as well as add their own collections, so we want the photos to stand out just as much, if not more, than text it accompanies. CTDA Red is our primary color, and because we like it so much, it's the background color of choice. There is such a thing as too much red, however, so be sure to balance it out with that big, bold imagery and text. If the red needs more balancing out, adding shapes from the logo is a good way to add some fun. Placing semi-transparent circle-dot-map-things in empty spaces can help the eye grab onto something and guide it back to the content, in addition to adding some flair to the design. 
+
+
+##<a name="Logo"></a>Logo
 You can find the logo in [this repo](https://github.com/CTDA/logo_designs)
 
 ####Use
