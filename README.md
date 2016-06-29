@@ -25,6 +25,7 @@ The following materials are used for outreach and marketing for the Connecticut 
 
 
 #<a name="Style-Guide"></a>Style Guide
+######Stlye Guide written by Erik Lindsay
 In order to maintain a consistent look and feel across all of CTDA, please refer to this guide when creating any new materials. 
 
 ##<a name="Look_and_feel"></a>Look and feel
