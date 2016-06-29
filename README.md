@@ -3,9 +3,13 @@ The following materials are used for outreach and marketing for the Connecticut 
 
 [Style Guide](#Style-Guide)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Fonts](#Fonts)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Typography](#Typography)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Colors](#Colors)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Imagery](#Imagery)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Shapes](#Shapes)
 
 [Flyer](#Flyer) 
 
@@ -25,27 +29,61 @@ You can find the logo in [this repo](https://github.com/CTDA/logo_designs)
 ####Use
  1. Whenever possible use the transparent .SVG or .PNG versions. 
  2. Be sure to use black and white versions when printing in black and white.
- 3. The vertical logo should only be used in cases where the horizontal
-    version does not fit.
+ 3. The vertical logo should only be used in cases where the horizontal version does not fit.
+ 4. NEVER use on a red background
+ 5. NEVER put it in a tight box
+ 6. Put it on a white background, or over an image with a linear white-transparent gradient behind the logo if needed
+ 
     
     
 
 
-##<a name="Fonts"></a>Fonts
+##<a name="Typography"></a>Typography
 
  **Ikaros:** Text that needs to be stylized, such as short headers
   - Tracking should be set to 68 to match the logo
 
 **Glacial Indifference:** Headings and shorter blurbs of information
  
-**Adamina:** Body text
+**Adamina:** Large bodies of text
 
 ##<a name="Colors"></a>Colors
 
-    Red: #DB3726     rgb(219,55,38)
-    White: #FFFFFF
-    Black: #000000
-    
+####Red
+Hex: `#DB3726`
+RGB: `219, 55, 38`
+CMYK: `0, 75, 83, 14`
+
+- primary color
+- backgrounds with white text
+- bold red headers on a white background.
+
+####White
+Hex: `#FFFFFF`
+RGB: `255, 255, 255`
+CMYK: `0, 0, 0, 0`
+
+-  text on a red background
+- background with a red header, and black text. 
+
+####Black
+Hex: `#000000`
+RGB: `0, 0, 0`
+CMYK: `0, 0, 0, 100`
+
+- text on a white background
+- box shadows
+- link hover state when text is on a red background
+
+##<a name="Imagery"></a>Imagery
+- NEVER use blurry images
+- should be from the archive
+- Photos should not show their age (NO blotches, scratches, fading, borders, writing, distortion)
+- ensure color accuracy (proper exposure, monochrome images are actually black and white if they are supposed to be)
+- It is okay to photoshop images to fit the above guidelines
+
+##<a name="Shapes"></a>Shapes
+- Accent shapes should be reminiscent of the logo (circles and lines)
 
 #<a name="Flyer"></a>Flyer
 This flyer provides a minimal description of CTDA for handing out to potential partners. 
