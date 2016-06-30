@@ -1,0 +1,72 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GlacialIndifference-Bold
+FamilyName:Glacial Indifference
+StyleName:Bold
+FullName:GlacialIndifference-Bold
+MenuName:Glacial Indifference
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Erik\Google Drive\Graphic Design\CTDA\outreach_materials\bookmark\indesign_files\Document fonts\GlacialIndifference-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:31020
+FileModTime:1455577750
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,GlacialIndifference-Bold
+NameArray:0,Win,1,Glacial Indifference
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GlacialIndifference-Regular
+FamilyName:Glacial Indifference
+StyleName:Regular
+FullName:Glacial Indifference Regular
+MenuName:Glacial Indifference
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Erik\Google Drive\Graphic Design\CTDA\outreach_materials\bookmark\indesign_files\Document fonts\GlacialIndifference-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:54752
+FileModTime:1436885554
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Glacial Indifference Regular
+NameArray:0,Win,1,Glacial Indifference
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Ikaros
+FamilyName:Ikaros
+StyleName:Regular
+FullName:Ikaros
+MenuName:Ikaros
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Erik\Google Drive\Graphic Design\CTDA\outreach_materials\bookmark\indesign_files\Document fonts\Ikaros.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:24364
+FileModTime:1464189422
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Ikaros
+NameArray:0,Win,1,Ikaros
+%EndFont
+

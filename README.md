@@ -25,7 +25,7 @@ The following materials are used for outreach and marketing for the Connecticut 
 
 
 #<a name="Style-Guide"></a>Style Guide
-######Stlye Guide written by Erik Lindsay
+######Style Guide written by Erik Lindsay
 In order to maintain a consistent look and feel across all of CTDA, please refer to this guide when creating any new materials. 
 
 ##<a name="Look_and_feel"></a>Look and feel
@@ -121,4 +121,8 @@ This flyer provides a minimal description of CTDA for handing out to potential p
 
 ######Flyer created by Erik Lindsay
 #<a name="Bookmark"></a>Bookmark
-coming soon
+A promotional bookmark highlighting some of our collections and providing a description of CTDA.
+
+note: "with bleeds" refers to to files suitable for edge to edge printing, they must be cut on the inner crop marks.
+
+######Bookmark created by Erik Lindsay
