@@ -123,6 +123,6 @@ This flyer provides a minimal description of CTDA for handing out to potential p
 #<a name="Bookmark"></a>Bookmark
 A promotional bookmark highlighting some of our collections and providing a description of CTDA.
 
-note: "with bleeds" refers to to files suitable for edge to edge printing, they must be cut on the inner crop marks.
+note: "with bleeds" refers to to files suitable for edge to edge printing, they must be cut on the crop marks.
 
 ######Bookmark created by Erik Lindsay
